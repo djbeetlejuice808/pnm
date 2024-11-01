@@ -3,26 +3,34 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="20dp"
+    android:background="#FFFFFF">
 
     <EditText
         android:id="@+id/eventNameEdit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Event Name"/>
+        android:hint="Battle of Bach Dang"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="12dp"/>
 
     <EditText
         android:id="@+id/dateEdit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Date"
-        android:layout_marginTop="8dp"/>
+        android:hint="938"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="12dp"/>
 
     <EditText
         android:id="@+id/descriptionEdit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Description"
-        android:layout_marginTop="8dp"/>
+        android:hint="Enter description"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:minLines="3"/>
 
 </LinearLayout>
